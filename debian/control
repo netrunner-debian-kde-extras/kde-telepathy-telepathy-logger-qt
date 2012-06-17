@@ -1,0 +1,56 @@
+Source: telepathy-logger-qt
+Section: libs
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Build-Depends: debhelper (>= 9),
+ dpkg-dev (>= 1.16.1~),
+ cmake,
+ libqt4-dev,
+ libqtgstreamer-dev,
+ libtelepathy-qt4-dev (>= 0.9.1),
+ libtelepathy-logger-dev (>= 0.4),
+ libtelepathy-glib-dev (>= 0.16),
+ libxml2-dev,
+ python (>= 2.6),
+ python-dev,
+ flex,
+ bison
+# libxml2-dev is basically unavoidable because tp-logger's pkg-config file is wrong
+Standards-Version: 3.9.3
+Homepage: https://projects.kde.org/projects/extragear/network/telepathy/telepathy-logger-qt
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git
+
+Package: libtelepathy-logger-qt4-1
+Section: libs
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Qt bindings for the telepathy-logger library
+ This library provides Qt-style C++ bindings for the telepathy-logger library.
+ .
+ The telepathy-logger library provides access to IM chat and event logs
+ that are recorded by the telepathy-logger daemon.
+
+Package: libtelepathy-logger-qt4-dev
+Section: libdevel
+Architecture: any
+Depends: libtelepathy-logger-qt4-1 (= ${binary:Version})
+Description: Qt bindings for the telepathy-logger library - development files
+ This library provides Qt-style C++ bindings for the telepathy-logger library.
+ .
+ The telepathy-logger library provides access to IM chat and event logs
+ that are recorded by the telepathy-logger daemon.
+ .
+ This package provides the development headers for compiling applications
+ that are using telepathy-logger-qt.
+
+Package: libtelepathy-logger-qt4-1-dbg
+Section: debug
+Priority: extra
+Architecture: any
+Depends: libtelepathy-logger-qt4-1 (= ${binary:Version}), ${misc:Depends}
+Description: Qt bindings for the telepathy-logger library - debug symbols
+ This package provides debug symbols for the telepathy-logger-qt library.

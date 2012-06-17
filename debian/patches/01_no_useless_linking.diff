@@ -1,0 +1,12 @@
+--- a/TelepathyLoggerQt4/CMakeLists.txt
++++ b/TelepathyLoggerQt4/CMakeLists.txt
+@@ -177,9 +177,6 @@
+     ${GOBJECT_LIBRARIES}
+     -lgio-2.0
+     ${QT_QTDBUS_LIBRARY}
+-    ${DBUS_LIBRARIES}
+-    ${LIBXML2_LIBRARIES}
+-    ${DBUS_GLIB_LIBRARIES}
+     ${TELEPATHY_GLIB_LIBRARIES}
+     ${TELEPATHY_LOGGER_LIBRARIES}
+     ${TELEPATHY_QT4_LIBRARIES}
