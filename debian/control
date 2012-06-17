@@ -37,7 +37,7 @@ Description: Qt bindings for the telepathy-logger library
 Package: libtelepathy-logger-qt4-dev
 Section: libdevel
 Architecture: any
-Depends: libtelepathy-logger-qt4-1 (= ${binary:Version})
+Depends: libtelepathy-logger-qt4-1 (= ${binary:Version}), ${misc:Depends}
 Description: Qt bindings for the telepathy-logger library - development files
  This library provides Qt-style C++ bindings for the telepathy-logger library.
  .
