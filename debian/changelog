@@ -1,5 +1,5 @@
-telepathy-logger-qt (0.4.0-0r1) UNRELEASED; urgency=low
+telepathy-logger-qt (0.4.0-1) unstable; urgency=low
 
   * Initial release.
 
- -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sat, 16 Jun 2012 22:46:01 +0300
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Mon, 18 Jun 2012 22:28:46 +0300
