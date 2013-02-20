@@ -40,7 +40,7 @@ endif(POLICY CMP0011)
 #   set nano_version to 1
 set(TP_LOGGER_QT4_MAJOR_VERSION 0)
 set(TP_LOGGER_QT4_MINOR_VERSION 5)
-set(TP_LOGGER_QT4_MICRO_VERSION 1)
+set(TP_LOGGER_QT4_MICRO_VERSION 3)
 set(TP_LOGGER_QT4_NANO_VERSION  0)
 
 # This value contains the library's SOVERSION. This value is to be increased everytime an API/ABI break
@@ -78,11 +78,6 @@ endif(NOT CMAKE_BUILD_TYPE)
 
 # This file contains all the needed initialization macros
 include(TelepathyDefaults)
-
-# TelepathyLoggerQt4 specific defines needed to trigger deprecation warnings
-if (CXX_DEPRECATED_DECLARATIONS)
-    set(DEPRECATED_DECLARATIONS_FLAGS "${DEPRECATED_DECLARATIONS_FLAGS} -DTELEPATHY_LOGGER_QT4_DEPRECATED_WARNINGS")
-endif (CXX_DEPRECATED_DECLARATIONS)
 
 # This file contains all macros used in the buildsystem
 include(TpQt4Macros)
