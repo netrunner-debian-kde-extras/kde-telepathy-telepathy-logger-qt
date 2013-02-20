@@ -1,9 +1,10 @@
-telepathy-logger-qt (0.5.1-1) UNRELEASED; urgency=low
+telepathy-logger-qt (0.5.3-1) UNRELEASED; urgency=low
 
   * [6c8e0a2] Imported Upstream version 0.5.1
+  * [897e8df] Imported Upstream version 0.5.3
   * [862a625] bump version dependencies
 
- -- Ritesh Raj Sarraf <rrs@debian.org>  Thu, 29 Nov 2012 00:16:30 +0530
+ -- Ritesh Raj Sarraf <rrs@debian.org>  Wed, 20 Feb 2013 13:37:17 +0530
 
 telepathy-logger-qt (0.4.0-1) unstable; urgency=low
 
