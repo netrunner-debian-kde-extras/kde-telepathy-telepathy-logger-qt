@@ -40,7 +40,7 @@ endif(POLICY CMP0011)
 #   set nano_version to 1
 set(TP_LOGGER_QT4_MAJOR_VERSION 0)
 set(TP_LOGGER_QT4_MINOR_VERSION 5)
-set(TP_LOGGER_QT4_MICRO_VERSION 3)
+set(TP_LOGGER_QT4_MICRO_VERSION 60)
 set(TP_LOGGER_QT4_NANO_VERSION  0)
 
 # This value contains the library's SOVERSION. This value is to be increased everytime an API/ABI break
@@ -79,18 +79,24 @@ endif(NOT CMAKE_BUILD_TYPE)
 # This file contains all the needed initialization macros
 include(TelepathyDefaults)
 
+# TelepathyLoggerQt4 specific defines needed to trigger deprecation warnings
+if (CXX_DEPRECATED_DECLARATIONS)
+    set(DEPRECATED_DECLARATIONS_FLAGS "${DEPRECATED_DECLARATIONS_FLAGS} -DTELEPATHY_LOGGER_QT4_DEPRECATED_WARNINGS")
+endif (CXX_DEPRECATED_DECLARATIONS)
+
 # This file contains all macros used in the buildsystem
-include(TpQt4Macros)
+include(TpQtMacros)
 
 include(Doxygen)
 include(MacroLogFeature)
+include(MacroWriteBasicCMakeVersionFile)
 
 # external dependencies
 
 # Required dependencies
 # Find qt4 version >= 4.5
 set (QT_MIN_VERSION "4.5.0")
-find_package(Qt4 REQUIRED)
+find_package(Qt REQUIRED)
 set (TELEPATHYQT4_MIN_VERSION "0.9.1")
 find_package(TelepathyQt4 ${TELEPATHYQT4_MIN_VERSION} REQUIRED)
 
@@ -142,7 +148,7 @@ find_package(TelepathyLogger REQUIRED)
 #find_program(GLIB_GENMARSHAL glib-genmarshal)
 
 # Find telepathy-glib
-set(TELEPATHY_GLIB_MIN_VERSION 0.13.0)
+set(TELEPATHY_GLIB_MIN_VERSION 0.16.0)
 find_package(TelepathyGlib REQUIRED)
 
 # Activate debug symbols generation
