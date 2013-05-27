@@ -1,9 +1,16 @@
-telepathy-logger-qt (0.6.0-1) UNRELEASED; urgency=low
+telepathy-logger-qt (0.6.0-1~1.gbpd6ad51) UNRELEASED; urgency=low
 
+  ** SNAPSHOT build @d6ad5114edb7f5c6020f974bc0b54b111d7bb6d2 **
+
+  [ Ritesh Raj Sarraf ]
   * [6c8e0a2] Imported Upstream version 0.5.1
   * [897e8df] Imported Upstream version 0.5.3
   * [d44ad06] Imported Upstream version 0.6.0
   * [862a625] bump version dependencies
+
+  [ Diane Trout ]
+  * Install cmake files into common cmake directory 
+  * Update watch file for new upstream location.
 
  -- Ritesh Raj Sarraf <rrs@debian.org>  Sun, 07 Apr 2013 23:43:15 +0530
 
