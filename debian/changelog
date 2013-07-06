@@ -9,8 +9,9 @@ telepathy-logger-qt (0.6.0-1~1.gbpd6ad51) UNRELEASED; urgency=low
   * [862a625] bump version dependencies
 
   [ Diane Trout ]
-  * Install cmake files into common cmake directory 
+  * Install cmake files into common cmake directory
   * Update watch file for new upstream location.
+  * Change Uploaders to myself and Michał Zając
 
  -- Ritesh Raj Sarraf <rrs@debian.org>  Sun, 07 Apr 2013 23:43:15 +0530
 
