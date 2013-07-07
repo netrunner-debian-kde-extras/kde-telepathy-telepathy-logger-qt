@@ -11,6 +11,7 @@ telepathy-logger-qt (0.6.0-1) UNRELEASED; urgency=low
   * Update watch file for new upstream location.
   * Change Uploaders to myself and Michał Zając
   * Credit George Kiagiadakis for 01_no_useless_linking.diff
+  * Add symbols file for libtelepathy-logger-qt4-1
 
  -- Diane Trout <diane@ghic.org>  Sat, 06 Jul 2013 20:31:13 -0700
 
