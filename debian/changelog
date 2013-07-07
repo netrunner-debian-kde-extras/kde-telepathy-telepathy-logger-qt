@@ -1,11 +1,5 @@
 telepathy-logger-qt (0.6.0-1) UNRELEASED; urgency=low
 
-  [ Ritesh Raj Sarraf ]
-  * [6c8e0a2] Imported Upstream version 0.5.1
-  * [897e8df] Imported Upstream version 0.5.3
-  * [d44ad06] Imported Upstream version 0.6.0
-  * [862a625] bump version dependencies
-
   [ Diane Trout ]
   * Install cmake files into common cmake directory
   * Update watch file for new upstream location.
