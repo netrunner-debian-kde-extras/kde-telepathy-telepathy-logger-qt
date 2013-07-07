@@ -1,3 +1,5 @@
+Author: George Kiagiadakis
+Description: Remove unneeded libraries to reduce unneeded dependencies.
 --- a/TelepathyLoggerQt4/CMakeLists.txt
 +++ b/TelepathyLoggerQt4/CMakeLists.txt
 @@ -177,9 +177,6 @@

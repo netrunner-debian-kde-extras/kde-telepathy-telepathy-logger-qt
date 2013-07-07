@@ -10,8 +10,9 @@ telepathy-logger-qt (0.6.0-1) UNRELEASED; urgency=low
   * Install cmake files into common cmake directory
   * Update watch file for new upstream location.
   * Change Uploaders to myself and Michał Zając
+  * Credit George Kiagiadakis for 01_no_useless_linking.diff
 
- -- Ritesh Raj Sarraf <rrs@debian.org>  Sun, 07 Apr 2013 23:43:15 +0530
+ -- Diane Trout <diane@ghic.org>  Sat, 06 Jul 2013 20:31:13 -0700
 
 telepathy-logger-qt (0.4.0-1) unstable; urgency=low
 
