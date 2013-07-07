@@ -1,6 +1,4 @@
-telepathy-logger-qt (0.6.0-1~1.gbpd6ad51) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @d6ad5114edb7f5c6020f974bc0b54b111d7bb6d2 **
+telepathy-logger-qt (0.6.0-1) UNRELEASED; urgency=low
 
   [ Ritesh Raj Sarraf ]
   * [6c8e0a2] Imported Upstream version 0.5.1
