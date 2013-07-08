@@ -9,6 +9,9 @@ telepathy-logger-qt (0.6.0-1) UNRELEASED; urgency=low
   * Update to Standards-Version 3.9.4. No changes needed.
   * Update control file with minor edits.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Mark some symbols as optional.
+
  -- Diane Trout <diane@ghic.org>  Sat, 06 Jul 2013 20:31:13 -0700
 
 telepathy-logger-qt (0.4.0-1) unstable; urgency=low

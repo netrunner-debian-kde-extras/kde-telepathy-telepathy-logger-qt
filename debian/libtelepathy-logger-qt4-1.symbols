@@ -144,13 +144,13 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZNK3Tpl9TextEvent12messageTokenEv@Base 0.6.0
  _ZNK3Tpl9TextEvent13editTimestampEv@Base 0.6.0
  _ZNK3Tpl9TextEvent7messageEv@Base 0.6.0
- _ZTCN3Tpl10LogManagerE0_N5QGlib6ObjectE@Base 0.6.0
- _ZTCN3Tpl5EventE0_N5QGlib6ObjectE@Base 0.6.0
- _ZTCN3Tpl6EntityE0_N5QGlib6ObjectE@Base 0.6.0
- _ZTCN3Tpl9CallEventE0_N5QGlib6ObjectE@Base 0.6.0
- _ZTCN3Tpl9CallEventE0_NS_5EventE@Base 0.6.0
- _ZTCN3Tpl9TextEventE0_N5QGlib6ObjectE@Base 0.6.0
- _ZTCN3Tpl9TextEventE0_NS_5EventE@Base 0.6.0
+ (optional=gccinternal)_ZTCN3Tpl10LogManagerE0_N5QGlib6ObjectE@Base 0.6.0
+ (optional=gccinternal)_ZTCN3Tpl5EventE0_N5QGlib6ObjectE@Base 0.6.0
+ (optional=gccinternal)_ZTCN3Tpl6EntityE0_N5QGlib6ObjectE@Base 0.6.0
+ (optional=gccinternal)_ZTCN3Tpl9CallEventE0_N5QGlib6ObjectE@Base 0.6.0
+ (optional=gccinternal)_ZTCN3Tpl9CallEventE0_NS_5EventE@Base 0.6.0
+ (optional=gccinternal)_ZTCN3Tpl9TextEventE0_N5QGlib6ObjectE@Base 0.6.0
+ (optional=gccinternal)_ZTCN3Tpl9TextEventE0_NS_5EventE@Base 0.6.0
  _ZTIN3Tpl10LogManagerE@Base 0.6.0
  _ZTIN3Tpl12PendingDatesE@Base 0.6.0
  _ZTIN3Tpl13PendingEventsE@Base 0.6.0
