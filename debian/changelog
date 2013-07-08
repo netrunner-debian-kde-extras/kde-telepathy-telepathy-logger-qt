@@ -1,4 +1,4 @@
-telepathy-logger-qt (0.6.0-1) UNRELEASED; urgency=low
+telepathy-logger-qt (0.6.0-1) unstable; urgency=low
 
   [ Diane Trout ]
   * Install cmake files into common cmake directory
@@ -12,7 +12,7 @@ telepathy-logger-qt (0.6.0-1) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Mark some symbols as optional.
 
- -- Diane Trout <diane@ghic.org>  Sat, 06 Jul 2013 20:31:13 -0700
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 08 Jul 2013 13:53:51 -0300
 
 telepathy-logger-qt (0.4.0-1) unstable; urgency=low
 
