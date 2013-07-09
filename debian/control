@@ -16,7 +16,8 @@ Build-Depends: debhelper (>= 9),
  python (>= 2.6),
  python-dev,
  flex,
- bison
+ bison,
+ pkg-kde-tools (>= 0.12)
 # libxml2-dev is basically unavoidable because tp-logger's pkg-config file is wrong
 Standards-Version: 3.9.4
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/telepathy-logger-qt
