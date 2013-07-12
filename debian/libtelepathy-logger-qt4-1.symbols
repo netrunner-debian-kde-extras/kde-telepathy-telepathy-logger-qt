@@ -1,3 +1,4 @@
+# SymbolsHelper-Confirmed: 0.6.0 amd64
 libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN3Tpl10LogManager10queryDatesERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskE@Base 0.6.0
  _ZN3Tpl10LogManager11queryEventsERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskERK5QDate@Base 0.6.0
@@ -5,7 +6,7 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN3Tpl10LogManager13queryEntitiesERKN2Tp9SharedPtrINS1_7AccountEEE@Base 0.6.0
  _ZN3Tpl10LogManager18clearEntityHistoryERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEE@Base 0.6.0
  _ZN3Tpl10LogManager19clearAccountHistoryERKN2Tp9SharedPtrINS1_7AccountEEE@Base 0.6.0
- _ZN3Tpl10LogManager19queryFilteredEventsERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskEjPFbRKNS8_INS_5EventEEEPvESI_@Base 0.6.0
+ (optional=templinst)_ZN3Tpl10LogManager19queryFilteredEventsERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskEjPFbRKNS8_INS_5EventEEEPvESI_@Base 0.6.0
  _ZN3Tpl10LogManager20setAccountManagerPtrERKN2Tp9SharedPtrINS1_14AccountManagerEEE@Base 0.6.0
  _ZN3Tpl10LogManager6searchERK7QStringNS_13EventTypeMaskE@Base 0.6.0
  _ZN3Tpl10LogManager8instanceEv@Base 0.6.0
@@ -25,9 +26,9 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN3Tpl13PendingEvents16staticMetaObjectE@Base 0.6.0
  _ZN3Tpl13PendingEvents5startEv@Base 0.6.0
  _ZN3Tpl13PendingEventsC1ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskERK5QDate@Base 0.6.0
- _ZN3Tpl13PendingEventsC1ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskEjPFbRKNS2_INS_5EventEEEPvESM_@Base 0.6.0
+ (optional=templinst)_ZN3Tpl13PendingEventsC1ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskEjPFbRKNS2_INS_5EventEEEPvESM_@Base 0.6.0
  _ZN3Tpl13PendingEventsC2ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskERK5QDate@Base 0.6.0
- _ZN3Tpl13PendingEventsC2ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskEjPFbRKNS2_INS_5EventEEEPvESM_@Base 0.6.0
+ (optional=templinst)_ZN3Tpl13PendingEventsC2ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskEjPFbRKNS2_INS_5EventEEEPvESM_@Base 0.6.0
  _ZN3Tpl13PendingEventsD0Ev@Base 0.6.0
  _ZN3Tpl13PendingEventsD1Ev@Base 0.6.0
  _ZN3Tpl13PendingEventsD2Ev@Base 0.6.0
@@ -144,13 +145,6 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZNK3Tpl9TextEvent12messageTokenEv@Base 0.6.0
  _ZNK3Tpl9TextEvent13editTimestampEv@Base 0.6.0
  _ZNK3Tpl9TextEvent7messageEv@Base 0.6.0
- (c++|optional=gccinternal)"construction vtable for QGlib::Object-in-Tpl::LogManager@Base" 0.6.0
- (c++|optional=gccinternal)"construction vtable for QGlib::Object-in-Tpl::Event@Base" 0.6.0
- (c++|optional=gccinternal)"construction vtable for QGlib::Object-in-Tpl::Entity@Base" 0.6.0
- (c++|optional=gccinternal)"construction vtable for QGlib::Object-in-Tpl::CallEvent@Base" 0.6.0
- (c++|optional=gccinternal)"construction vtable for Tpl::Event-in-Tpl::CallEvent@Base" 0.6.0
- (c++|optional=gccinternal)"construction vtable for QGlib::Object-in-Tpl::TextEvent@Base" 0.6.0
- (c++|optional=gccinternal)"construction vtable for Tpl::Event-in-Tpl::TextEvent@Base" 0.6.0
  _ZTIN3Tpl10LogManagerE@Base 0.6.0
  _ZTIN3Tpl12PendingDatesE@Base 0.6.0
  _ZTIN3Tpl13PendingEventsE@Base 0.6.0
@@ -189,13 +183,8 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZTVN3Tpl6EntityE@Base 0.6.0
  _ZTVN3Tpl9CallEventE@Base 0.6.0
  _ZTVN3Tpl9TextEventE@Base 0.6.0
- _ZTv0_n24_N3Tpl10LogManagerD0Ev@Base 0.6.0
- _ZTv0_n24_N3Tpl10LogManagerD1Ev@Base 0.6.0
- _ZTv0_n24_N3Tpl5EventD0Ev@Base 0.6.0
- _ZTv0_n24_N3Tpl5EventD1Ev@Base 0.6.0
- _ZTv0_n24_N3Tpl6EntityD0Ev@Base 0.6.0
- _ZTv0_n24_N3Tpl6EntityD1Ev@Base 0.6.0
- _ZTv0_n24_N3Tpl9CallEventD0Ev@Base 0.6.0
- _ZTv0_n24_N3Tpl9CallEventD1Ev@Base 0.6.0
- _ZTv0_n24_N3Tpl9TextEventD0Ev@Base 0.6.0
- _ZTv0_n24_N3Tpl9TextEventD1Ev@Base 0.6.0
+ (c++)"virtual thunk to Tpl::CallEvent::~CallEvent()@Base" 0.6.0
+ (c++)"virtual thunk to Tpl::Entity::~Entity()@Base" 0.6.0
+ (c++)"virtual thunk to Tpl::Event::~Event()@Base" 0.6.0
+ (c++)"virtual thunk to Tpl::LogManager::~LogManager()@Base" 0.6.0
+ (c++)"virtual thunk to Tpl::TextEvent::~TextEvent()@Base" 0.6.0
