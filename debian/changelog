@@ -1,3 +1,10 @@
+telepathy-logger-qt (0.6.0-2~bpo70+1) wheezy-backports; urgency=low
+
+  * Rebuild for wheezy-backports.
+  * Update symbols file.
+
+ -- Diane Trout <diane@ghic.org>  Tue, 20 Aug 2013 21:02:28 -0700
+
 telepathy-logger-qt (0.6.0-2) unstable; urgency=low
 
   * Team upload.
