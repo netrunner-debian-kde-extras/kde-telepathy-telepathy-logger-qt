@@ -31,14 +31,26 @@
 namespace Tpl
 {
 
+/**
+ * \headerfile pending-events.h <TelepathyLoggerQt4/PendingEvents>
+ * \brief An operation for retrieving events from the logger storage
+ */
 class TELEPATHY_LOGGER_QT4_EXPORT PendingEvents : public Tpl::PendingOperation
 {
     Q_OBJECT
     Q_DISABLE_COPY(PendingEvents);
 
 public:
+    /**
+     * \brief Destructor.
+     */
     ~PendingEvents();
 
+    /**
+     * \brief Returns all events retrieved by the operation.
+     *
+     * It's an error calling this method before the finished() signal is emitted.
+     */
     EventPtrList events() const;
 
 private Q_SLOTS:
@@ -46,12 +58,14 @@ private Q_SLOTS:
 
 private:
     friend class LogManager;
+    friend class LogWalker;
 
     PendingEvents(const LogManagerPtr & manager, const Tp::AccountPtr & account,
             const EntityPtr & entity, EventTypeMask typeMask, const QDate &date);
     PendingEvents(const LogManagerPtr & manager, const Tp::AccountPtr & account,
             const EntityPtr & entity, EventTypeMask typeMask, uint numEvents,
             LogEventFilter filterFunction, void *filterFunctionUserData);
+    PendingEvents(const LogWalkerPtr & logWalker, uint numEvents);
 
     struct Private;
     friend struct Private;

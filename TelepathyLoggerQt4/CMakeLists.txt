@@ -1,10 +1,11 @@
 file(MAKE_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/_gen")
 
-set(TelepathyLoggerQt4_CODEGEN_HEADERS 
+set(TelepathyLoggerQt4_CODEGEN_HEADERS
     call-event.h
     entity.h
     event.h
     log-manager.h
+    log-walker.h
     text-event.h
     types.h)
 
@@ -12,12 +13,14 @@ set(TelepathyLoggerQt4_CODEGEN_INCLUDES
     -Itelepathy-logger/call-event.h
     -Itelepathy-logger/entity.h
     -Itelepathy-logger/log-manager.h
+    -Itelepathy-logger/log-walker.h
     -Itelepathy-logger/event.h
     -Itelepathy-logger/text-event.h
     -ITelepathyLoggerQt4/CallEvent
     -ITelepathyLoggerQt4/Entity
     -ITelepathyLoggerQt4/Event
     -ITelepathyLoggerQt4/LogManager
+    -ITelepathyLoggerQt4/LogWalker
     -ITelepathyLoggerQt4/TextEvent
     -ITelepathyLoggerQt4/Types
     -IQGlib/Quark)
@@ -40,12 +43,14 @@ set(telepathy_logger_qt4_SRCS
     entity.cpp
     event.cpp
     log-manager.cpp
+    log-walker.cpp
     pending-dates.cpp
     pending-entities.cpp
     pending-events.cpp
     pending-clear.cpp
     pending-operation.cpp
     pending-search.cpp
+    pending-log-walker-operation.cpp
     search-hit.cpp
     text-event.cpp
     utils.cpp
@@ -60,6 +65,7 @@ set(telepathy_logger_qt4_HEADERS
     Global
     Init
     LogManager
+    LogWalker
     PendingDates
     PendingEntities
     PendingEvents
@@ -70,10 +76,11 @@ set(telepathy_logger_qt4_HEADERS
     Types
     call-event.h
     entity.h
-    event.h 
+    event.h
     global.h
     init.h
     log-manager.h
+    log-walker.h
     pending-dates.h
     pending-entities.h
     pending-events.h
@@ -91,7 +98,9 @@ set(telepathy_logger_qt4_MOC_SRCS
     pending-events.h
     pending-clear.h
     pending-operation.h
-    pending-search.h)
+    pending-search.h
+    pending-log-walker-operation.h
+    )
 
 # Generated headers which will be installed and exported
 set(telepathy_logger_qt4_gen_HEADERS
@@ -180,9 +189,6 @@ target_link_libraries(telepathy-logger-qt4
     ${GOBJECT_LIBRARIES}
     -lgio-2.0
     ${QT_QTDBUS_LIBRARY}
-    ${DBUS_LIBRARIES}
-    ${LIBXML2_LIBRARIES}
-    ${DBUS_GLIB_LIBRARIES}
     ${TELEPATHY_GLIB_LIBRARIES}
     ${TELEPATHY_LOGGER_LIBRARIES}
     ${TELEPATHY_QT4_LIBRARIES}
@@ -224,12 +230,6 @@ configure_file(${CMAKE_CURRENT_SOURCE_DIR}/TelepathyLoggerQt4-uninstalled.pc.in 
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/TelepathyLoggerQt4.pc DESTINATION ${LIB_INSTALL_DIR}/pkgconfig COMPONENT headers)
 
 # cmake file
-# Find out the correct installation directory
-if (USE_COMMON_CMAKE_PACKAGE_CONFIG_DIR)
-   set(_TelepathyLoggerQt4Config_INSTALL_DIR ${LIB_INSTALL_DIR}/cmake/TelepathyLoggerQt4)
-else (USE_COMMON_CMAKE_PACKAGE_CONFIG_DIR)
-   set(_TelepathyLoggerQt4Config_INSTALL_DIR ${LIB_INSTALL_DIR}/TelepathyLoggerQt4/cmake)
-endif (USE_COMMON_CMAKE_PACKAGE_CONFIG_DIR)
 
 include(TpQtMacros)
 # CMake Version and config files
@@ -258,10 +258,10 @@ macro_write_basic_cmake_version_file(${CMAKE_CURRENT_BINARY_DIR}/TelepathyLogger
 
 
 install(EXPORT TelepathyLoggerQt4Targets
-        DESTINATION ${_TelepathyLoggerQt4Config_INSTALL_DIR}
+        DESTINATION ${LIB_INSTALL_DIR}/cmake/TelepathyLoggerQt4
         COMPONENT headers)
 
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/TelepathyLoggerQt4ConfigVersion.cmake
               ${CMAKE_CURRENT_BINARY_DIR}/TelepathyLoggerQt4Config.cmake
-        DESTINATION ${_TelepathyLoggerQt4Config_INSTALL_DIR}
+        DESTINATION ${LIB_INSTALL_DIR}/cmake/TelepathyLoggerQt4
         COMPONENT headers)
