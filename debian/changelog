@@ -1,6 +1,7 @@
 telepathy-logger-qt (0.8.0-1) UNRELEASED; urgency=medium
 
   * Import 0.8.0
+  * Remove 01_no_useless_linking.diff
 
  -- Diane Trout <diane@ghic.org>  Tue, 18 Feb 2014 23:03:55 -0800
 
