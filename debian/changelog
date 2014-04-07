@@ -1,3 +1,9 @@
+telepathy-logger-qt (0.8.0-1) UNRELEASED; urgency=medium
+
+  * Import 0.8.0
+
+ -- Diane Trout <diane@ghic.org>  Tue, 18 Feb 2014 23:03:55 -0800
+
 telepathy-logger-qt (0.6.0-2) unstable; urgency=low
 
   * Team upload.
