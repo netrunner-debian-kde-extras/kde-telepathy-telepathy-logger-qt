@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.6.0 alpha amd64 powerpcspe ppc64
+# SymbolsHelper-Confirmed: 0.8.0 amd64
 libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN3Tpl10LogManager10queryDatesERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskE@Base 0.6.0
  _ZN3Tpl10LogManager11queryEventsERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskERK5QDate@Base 0.6.0
@@ -8,6 +8,7 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN3Tpl10LogManager19clearAccountHistoryERKN2Tp9SharedPtrINS1_7AccountEEE@Base 0.6.0
  (optional=templinst)_ZN3Tpl10LogManager19queryFilteredEventsERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskEjPFbRKNS8_INS_5EventEEEPvESI_@Base 0.6.0
  _ZN3Tpl10LogManager20setAccountManagerPtrERKN2Tp9SharedPtrINS1_14AccountManagerEEE@Base 0.6.0
+ (optional=templinst)_ZN3Tpl10LogManager23queryWalkFilteredEventsERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskEPFbRKNS8_INS_5EventEEEPvESI_@Base 0.8.0
  _ZN3Tpl10LogManager6searchERK7QStringNS_13EventTypeMaskE@Base 0.6.0
  _ZN3Tpl10LogManager8instanceEv@Base 0.6.0
  _ZN3Tpl10LogManagerD0Ev@Base 0.6.0
@@ -27,8 +28,10 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN3Tpl13PendingEvents5startEv@Base 0.6.0
  _ZN3Tpl13PendingEventsC1ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskERK5QDate@Base 0.6.0
  (optional=templinst)_ZN3Tpl13PendingEventsC1ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskEjPFbRKNS2_INS_5EventEEEPvESM_@Base 0.6.0
+ _ZN3Tpl13PendingEventsC1ERKN5QGlib10RefPointerINS_9LogWalkerEEEj@Base 0.8.0
  _ZN3Tpl13PendingEventsC2ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskERK5QDate@Base 0.6.0
  (optional=templinst)_ZN3Tpl13PendingEventsC2ERKN5QGlib10RefPointerINS_10LogManagerEEERKN2Tp9SharedPtrINS7_7AccountEEERKNS2_INS_6EntityEEENS_13EventTypeMaskEjPFbRKNS2_INS_5EventEEEPvESM_@Base 0.6.0
+ _ZN3Tpl13PendingEventsC2ERKN5QGlib10RefPointerINS_9LogWalkerEEEj@Base 0.8.0
  _ZN3Tpl13PendingEventsD0Ev@Base 0.6.0
  _ZN3Tpl13PendingEventsD1Ev@Base 0.6.0
  _ZN3Tpl13PendingEventsD2Ev@Base 0.6.0
@@ -80,6 +83,15 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN3Tpl16PendingOperationD0Ev@Base 0.6.0
  _ZN3Tpl16PendingOperationD1Ev@Base 0.6.0
  _ZN3Tpl16PendingOperationD2Ev@Base 0.6.0
+ _ZN3Tpl25PendingLogWalkerOperation11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.8.0
+ _ZN3Tpl25PendingLogWalkerOperation11qt_metacastEPKc@Base 0.8.0
+ _ZN3Tpl25PendingLogWalkerOperation16staticMetaObjectE@Base 0.8.0
+ _ZN3Tpl25PendingLogWalkerOperation5startEv@Base 0.8.0
+ _ZN3Tpl25PendingLogWalkerOperationC1ERKN5QGlib10RefPointerINS_9LogWalkerEEENS0_13OperationTypeEj@Base 0.8.0
+ _ZN3Tpl25PendingLogWalkerOperationC2ERKN5QGlib10RefPointerINS_9LogWalkerEEENS0_13OperationTypeEj@Base 0.8.0
+ _ZN3Tpl25PendingLogWalkerOperationD0Ev@Base 0.8.0
+ _ZN3Tpl25PendingLogWalkerOperationD1Ev@Base 0.8.0
+ _ZN3Tpl25PendingLogWalkerOperationD2Ev@Base 0.8.0
  _ZN3Tpl4initEv@Base 0.6.0
  _ZN3Tpl5EventD0Ev@Base 0.6.0
  _ZN3Tpl5EventD1Ev@Base 0.6.0
@@ -90,6 +102,12 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN3Tpl6EntityD1Ev@Base 0.6.0
  _ZN3Tpl9CallEventD0Ev@Base 0.6.0
  _ZN3Tpl9CallEventD1Ev@Base 0.6.0
+ _ZN3Tpl9LogWalker11queryEventsEj@Base 0.8.0
+ _ZN3Tpl9LogWalker5isEndEv@Base 0.8.0
+ _ZN3Tpl9LogWalker6rewindEj@Base 0.8.0
+ _ZN3Tpl9LogWalker7isStartEv@Base 0.8.0
+ _ZN3Tpl9LogWalkerD0Ev@Base 0.8.0
+ _ZN3Tpl9LogWalkerD1Ev@Base 0.8.0
  _ZN3Tpl9SearchHitC1ERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEERK5QDate@Base 0.6.0
  _ZN3Tpl9SearchHitC1ERKS0_@Base 0.6.0
  _ZN3Tpl9SearchHitC2ERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEERK5QDate@Base 0.6.0
@@ -103,6 +121,7 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN5QGlib11GetTypeImplIN3Tpl5EventEEcvNS_4TypeEEv@Base 0.6.0
  _ZN5QGlib11GetTypeImplIN3Tpl6EntityEEcvNS_4TypeEEv@Base 0.6.0
  _ZN5QGlib11GetTypeImplIN3Tpl9CallEventEEcvNS_4TypeEEv@Base 0.6.0
+ _ZN5QGlib11GetTypeImplIN3Tpl9LogWalkerEEcvNS_4TypeEEv@Base 0.8.0
  _ZN5QGlib11GetTypeImplIN3Tpl9TextEventEEcvNS_4TypeEEv@Base 0.6.0
  _ZNK3Tpl10LogManager17accountManagerPtrEv@Base 0.6.0
  _ZNK3Tpl10LogManager6existsERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskE@Base 0.6.0
@@ -124,12 +143,14 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZNK3Tpl16PendingOperation7isErrorEv@Base 0.6.0
  _ZNK3Tpl16PendingOperation7isValidEv@Base 0.6.0
  _ZNK3Tpl16PendingOperation9errorNameEv@Base 0.6.0
+ _ZNK3Tpl25PendingLogWalkerOperation10metaObjectEv@Base 0.8.0
  _ZNK3Tpl5Event11accountPathEv@Base 0.6.0
  _ZNK3Tpl5Event6senderEv@Base 0.6.0
  _ZNK3Tpl5Event7accountEv@Base 0.6.0
  _ZNK3Tpl5Event7equalToERKN5QGlib10RefPointerIS0_EE@Base 0.6.0
  _ZNK3Tpl5Event8receiverEv@Base 0.6.0
  _ZNK3Tpl5Event9timestampEv@Base 0.6.0
+ _ZNK3Tpl5EventeqERKN5QGlib10RefPointerIS0_EE@Base 0.8.0
  _ZNK3Tpl6Entity10entityTypeEv@Base 0.6.0
  _ZNK3Tpl6Entity10identifierEv@Base 0.6.0
  _ZNK3Tpl6Entity11avatarTokenEv@Base 0.6.0
@@ -141,9 +162,11 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZNK3Tpl9SearchHit4dateEv@Base 0.6.0
  _ZNK3Tpl9SearchHit6targetEv@Base 0.6.0
  _ZNK3Tpl9SearchHit7accountEv@Base 0.6.0
+ _ZNK3Tpl9TextEvent10supersedesEv@Base 0.8.0
  _ZNK3Tpl9TextEvent11messageTypeEv@Base 0.6.0
  _ZNK3Tpl9TextEvent12messageTokenEv@Base 0.6.0
  _ZNK3Tpl9TextEvent13editTimestampEv@Base 0.6.0
+ _ZNK3Tpl9TextEvent15supersedesTokenEv@Base 0.8.0
  _ZNK3Tpl9TextEvent7messageEv@Base 0.6.0
  _ZTIN3Tpl10LogManagerE@Base 0.6.0
  _ZTIN3Tpl12PendingDatesE@Base 0.6.0
@@ -152,9 +175,11 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZTIN3Tpl15LoggerInterfaceE@Base 0.6.0
  _ZTIN3Tpl15PendingEntitiesE@Base 0.6.0
  _ZTIN3Tpl16PendingOperationE@Base 0.6.0
+ _ZTIN3Tpl25PendingLogWalkerOperationE@Base 0.8.0
  _ZTIN3Tpl5EventE@Base 0.6.0
  _ZTIN3Tpl6EntityE@Base 0.6.0
  _ZTIN3Tpl9CallEventE@Base 0.6.0
+ _ZTIN3Tpl9LogWalkerE@Base 0.8.0
  _ZTIN3Tpl9TextEventE@Base 0.6.0
  _ZTSN3Tpl10LogManagerE@Base 0.6.0
  _ZTSN3Tpl12PendingDatesE@Base 0.6.0
@@ -163,14 +188,17 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZTSN3Tpl15LoggerInterfaceE@Base 0.6.0
  _ZTSN3Tpl15PendingEntitiesE@Base 0.6.0
  _ZTSN3Tpl16PendingOperationE@Base 0.6.0
+ _ZTSN3Tpl25PendingLogWalkerOperationE@Base 0.8.0
  _ZTSN3Tpl5EventE@Base 0.6.0
  _ZTSN3Tpl6EntityE@Base 0.6.0
  _ZTSN3Tpl9CallEventE@Base 0.6.0
+ _ZTSN3Tpl9LogWalkerE@Base 0.8.0
  _ZTSN3Tpl9TextEventE@Base 0.6.0
  _ZTTN3Tpl10LogManagerE@Base 0.6.0
  _ZTTN3Tpl5EventE@Base 0.6.0
  _ZTTN3Tpl6EntityE@Base 0.6.0
  _ZTTN3Tpl9CallEventE@Base 0.6.0
+ _ZTTN3Tpl9LogWalkerE@Base 0.8.0
  _ZTTN3Tpl9TextEventE@Base 0.6.0
  _ZTVN3Tpl10LogManagerE@Base 0.6.0
  _ZTVN3Tpl12PendingDatesE@Base 0.6.0
@@ -179,9 +207,11 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZTVN3Tpl15LoggerInterfaceE@Base 0.6.0
  _ZTVN3Tpl15PendingEntitiesE@Base 0.6.0
  _ZTVN3Tpl16PendingOperationE@Base 0.6.0
+ _ZTVN3Tpl25PendingLogWalkerOperationE@Base 0.8.0
  _ZTVN3Tpl5EventE@Base 0.6.0
  _ZTVN3Tpl6EntityE@Base 0.6.0
  _ZTVN3Tpl9CallEventE@Base 0.6.0
+ _ZTVN3Tpl9LogWalkerE@Base 0.8.0
  _ZTVN3Tpl9TextEventE@Base 0.6.0
  (c++|arch=!amd64)"construction vtable for QGlib::Object-in-Tpl::CallEvent@Base" 0.6.0
  (c++|arch=!amd64)"construction vtable for QGlib::Object-in-Tpl::Entity@Base" 0.6.0
@@ -194,4 +224,5 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  (c++)"virtual thunk to Tpl::Entity::~Entity()@Base" 0.6.0
  (c++)"virtual thunk to Tpl::Event::~Event()@Base" 0.6.0
  (c++)"virtual thunk to Tpl::LogManager::~LogManager()@Base" 0.6.0
+ (c++)"virtual thunk to Tpl::LogWalker::~LogWalker()@Base" 0.8.0
  (c++)"virtual thunk to Tpl::TextEvent::~TextEvent()@Base" 0.6.0
