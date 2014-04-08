@@ -19,7 +19,7 @@ Build-Depends: debhelper (>= 9),
  bison,
  pkg-kde-tools (>= 0.12)
 # libxml2-dev is basically unavoidable because tp-logger's pkg-config file is wrong
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/telepathy-logger-qt
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git
