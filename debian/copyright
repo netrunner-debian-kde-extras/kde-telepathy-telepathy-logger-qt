@@ -11,6 +11,7 @@ Copyright: 2005-2011 Collabora Ltd.
            2011 Stefano Sanfilippo <stefano.k.sanfilippo@gmail.com>
            2012 David Edmundson <kde@davidedmundson.co.uk>
            2010 George Kiagiadakis <kiagiadakis.george@gmail.com>
+           2013 Dan Vrátil <dvratil@redhat.com>
 License: LGPL-2.1+
 
 Files: cmake/*
