@@ -5,7 +5,7 @@ telepathy-logger-qt (0.8.0-1) UNRELEASED; urgency=medium
   * Update Standards-Version to 3.9.5. No changes needed.
   * Update libtelepathy-logger-qt4-1 symbols file for 0.8.0.
   * Update debian/copyright with new author.
-  * Add breaks: libktpcommoninternalsprivate7 (<< 0.7.80)
+  * Add breaks: libktpcommoninternalsprivate7 (<< 0.7.80~)
 
  -- Diane Trout <diane@ghic.org>  Tue, 18 Feb 2014 23:03:55 -0800
 
