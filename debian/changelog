@@ -1,7 +1,7 @@
 telepathy-logger-qt (0.8.0-1) UNRELEASED; urgency=medium
 
   * Import 0.8.0
-  * Remove 01_no_useless_linking.diff
+  * Remove 01_no_useless_linking.diff. Fixed upstream.
   * Update Standards-Version to 3.9.5. No changes needed.
   * Update libtelepathy-logger-qt4-1 symbols file for 0.8.0.
   * Update debian/copyright with new author.
