@@ -1,4 +1,4 @@
-telepathy-logger-qt (0.8.0-1) UNRELEASED; urgency=medium
+telepathy-logger-qt (0.8.0-1) unstable; urgency=medium
 
   * Import 0.8.0
   * Remove 01_no_useless_linking.diff. Fixed upstream.
@@ -7,7 +7,7 @@ telepathy-logger-qt (0.8.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright with new author.
   * Add breaks: libktpcommoninternalsprivate7 (<< 0.7.80~)
 
- -- Diane Trout <diane@ghic.org>  Tue, 18 Feb 2014 23:03:55 -0800
+ -- Diane Trout <diane@ghic.org>  Thu, 15 May 2014 15:01:39 -0700
 
 telepathy-logger-qt (0.6.0-2) unstable; urgency=low
 
