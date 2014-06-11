@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 0.8.0 amd64
+# SymbolsHelper-Confirmed: 0.8.0 alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZN3Tpl10LogManager10queryDatesERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskE@Base 0.6.0
  _ZN3Tpl10LogManager11queryEventsERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskERK5QDate@Base 0.6.0
@@ -213,13 +213,14 @@ libtelepathy-logger-qt4.so.1 libtelepathy-logger-qt4-1 #MINVER#
  _ZTVN3Tpl9CallEventE@Base 0.6.0
  _ZTVN3Tpl9LogWalkerE@Base 0.8.0
  _ZTVN3Tpl9TextEventE@Base 0.6.0
- (c++|arch=!amd64)"construction vtable for QGlib::Object-in-Tpl::CallEvent@Base" 0.6.0
- (c++|arch=!amd64)"construction vtable for QGlib::Object-in-Tpl::Entity@Base" 0.6.0
- (c++|arch=!amd64)"construction vtable for QGlib::Object-in-Tpl::Event@Base" 0.6.0
- (c++|arch=!amd64)"construction vtable for QGlib::Object-in-Tpl::LogManager@Base" 0.6.0
- (c++|arch=!amd64)"construction vtable for QGlib::Object-in-Tpl::TextEvent@Base" 0.6.0
- (c++|arch=!amd64)"construction vtable for Tpl::Event-in-Tpl::CallEvent@Base" 0.6.0
- (c++|arch=!amd64)"construction vtable for Tpl::Event-in-Tpl::TextEvent@Base" 0.6.0
+ (c++|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for QGlib::Object-in-Tpl::CallEvent@Base" 0.6.0
+ (c++|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for QGlib::Object-in-Tpl::Entity@Base" 0.6.0
+ (c++|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for QGlib::Object-in-Tpl::Event@Base" 0.6.0
+ (c++|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for QGlib::Object-in-Tpl::LogManager@Base" 0.6.0
+ (c++|arch=sparc)"construction vtable for QGlib::Object-in-Tpl::LogWalker@Base" 0.8.0
+ (c++|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for QGlib::Object-in-Tpl::TextEvent@Base" 0.6.0
+ (c++|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for Tpl::Event-in-Tpl::CallEvent@Base" 0.6.0
+ (c++|arch=!alpha !amd64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64 !s390x)"construction vtable for Tpl::Event-in-Tpl::TextEvent@Base" 0.6.0
  (c++)"virtual thunk to Tpl::CallEvent::~CallEvent()@Base" 0.6.0
  (c++)"virtual thunk to Tpl::Entity::~Entity()@Base" 0.6.0
  (c++)"virtual thunk to Tpl::Event::~Event()@Base" 0.6.0
