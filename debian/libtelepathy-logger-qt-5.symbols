@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 0.8.0 alpha amd64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x sparc
-libtelepathy-logger-qt5.so.0 libtelepathy-logger-qt5-0 #MINVER#
+libtelepathy-logger-qt.so.5 libtelepathy-logger-qt-5 #MINVER#
  _ZN3Tpl10LogManager10queryDatesERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskE@Base 0.6.0
  _ZN3Tpl10LogManager11queryEventsERKN2Tp9SharedPtrINS1_7AccountEEERKN5QGlib10RefPointerINS_6EntityEEENS_13EventTypeMaskERK5QDate@Base 0.6.0
  _ZN3Tpl10LogManager12clearHistoryEv@Base 0.6.0

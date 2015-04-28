@@ -1,4 +1,4 @@
 usr/include/telepathy-logger-0.2/TelepathyLoggerQt/
 usr/lib/*/cmake/TelepathyLoggerQt/
-usr/lib/*/libtelepathy-logger-qt5.so
-usr/lib/*/pkgconfig/TelepathyLoggerQt5.pc
+usr/lib/*/libtelepathy-logger-qt.so
+usr/lib/*/pkgconfig/TelepathyLoggerQt.pc

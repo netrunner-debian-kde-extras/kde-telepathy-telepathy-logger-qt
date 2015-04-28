@@ -4,7 +4,7 @@ CMAKE_FLAGS = -DUSE_COMMON_CMAKE_PACKAGE_CONFIG_DIR=1
 include /usr/share/dpkg/architecture.mk
 
 %:
-	dh $@ --with kde --buildsystem=kde --parallel --list-missing --dbg-package=libtelepathy-logger-qt5-0-dbg
+	dh $@ --with kde --buildsystem=kde --parallel --list-missing --dbg-package=libtelepathy-logger-qt-5-dbg
 
 override_dh_auto_configure:
 	dh_auto_configure --buildsystem=kde -- -DBUILD_SHARED_LIBS=1 -DLIB_SUFFIX="/$(DEB_HOST_MULTIARCH)" $(CMAKE_FLAGS)

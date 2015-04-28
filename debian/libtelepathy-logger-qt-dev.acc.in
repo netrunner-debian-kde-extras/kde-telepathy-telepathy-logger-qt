@@ -10,7 +10,7 @@
 </headers>
 
 <libs>
-    /usr/lib/@@DEB_HOST_MULTIARCH@@/libtelepathy-logger-qt5.so
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libtelepathy-logger-qt.so
 </libs>
 
 <gcc_options>
