@@ -14,11 +14,9 @@ Build-Depends: bison,
                libdbus-1-dev,
                libdbus-glib-1-dev,
                libglib2.0-dev,
-               libqt4-dev,
                libqtgstreamer-dev,
                libtelepathy-glib-dev (>= 0.18),
                libtelepathy-logger-dev (>= 0.8.0~),
-               libtelepathy-qt4-dev (>= 0.9.3),
                libtelepathy-qt5-dev (>= 0.9.1~),
                libxml2-dev,
                pkg-kde-tools (>= 0.12),
@@ -30,24 +28,23 @@ Homepage: https://projects.kde.org/projects/extragear/network/telepathy/telepath
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git
 
-Package: libtelepathy-logger-qt4-1
+Package: libtelepathy-logger-qt5-0
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libktpcommoninternalsprivate7 (<< 0.7.80~)
 Description: Qt bindings for the telepathy-logger library
  This library provides Qt-style C++ bindings for the telepathy-logger library.
  .
  The telepathy-logger library provides access to IM chat and event logs
  that are recorded by the telepathy-logger daemon.
 
-Package: libtelepathy-logger-qt4-dev
+Package: libtelepathy-logger-qt5-dev
 Section: libdevel
 Architecture: any
 Depends: libqtgstreamer-dev,
-         libtelepathy-logger-qt4-1 (= ${binary:Version}),
-         libtelepathy-qt4-dev (>= 0.9.1),
+         libtelepathy-logger-qt5-0 (= ${binary:Version}),
+         libtelepathy-qt5-dev (>= 0.9.1~),
          ${misc:Depends}
 Description: Qt bindings for the telepathy-logger library - development files
  This library provides Qt-style C++ bindings for the telepathy-logger library.
@@ -58,11 +55,11 @@ Description: Qt bindings for the telepathy-logger library - development files
  This package provides the development headers for compiling applications
  that are using telepathy-logger-qt.
 
-Package: libtelepathy-logger-qt4-1-dbg
+Package: libtelepathy-logger-qt5-0-dbg
 Section: debug
 Priority: extra
 Architecture: any
 Multi-Arch: same
-Depends: libtelepathy-logger-qt4-1 (= ${binary:Version}), ${misc:Depends}
+Depends: libtelepathy-logger-qt5-0 (= ${binary:Version}), ${misc:Depends}
 Description: Qt bindings for the telepathy-logger library - debug symbols
  This package provides debug symbols for the telepathy-logger-qt library.
