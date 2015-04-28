@@ -17,7 +17,7 @@ Build-Depends: bison,
                pkg-kde-tools (>= 0.12),
                python (>= 2.6),
                python-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/extragear/network/telepathy/telepathy-logger-qt
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git

@@ -1,6 +1,10 @@
 telepathy-logger-qt (0.8.0-4) UNRELEASED; urgency=medium
 
+  [ Diane Trout ]
   * Update watch file
+
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Diane Trout <diane@ghic.org>  Thu, 18 Sep 2014 09:27:12 -0700
 
