@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    15.04.0
+</version>
+
+<headers>
+    /usr/include/telepathy-logger-0.2/TelepathyLoggerQt/
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libtelepathy-logger-qt5.so
+</libs>
+
+<gcc_options>
+    -fPIC
+</gcc_options>
+
+</descriptor>
