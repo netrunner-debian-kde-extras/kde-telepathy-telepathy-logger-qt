@@ -1,3 +1,12 @@
+telepathy-logger-qt (15.04.0-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
+
+  * New upstream Qt 5 release
+  * Packages dropped their qt version suffix and gained a soversion 5
+  * Watch file updated to unstable path
+  * PPA build
+
+ -- Harald Sitter <sitter@kde.org>  Mon, 09 Mar 2015 10:46:14 +0100
+
 telepathy-logger-qt (0.8.0-4) UNRELEASED; urgency=medium
 
   * Update watch file

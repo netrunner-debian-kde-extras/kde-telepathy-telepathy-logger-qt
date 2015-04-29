@@ -1,2 +1,2 @@
 version=3
-http://download.kde.org/stable/telepathy-logger-qt/([\d\.]+)/src/telepathy-logger-qt-([\d.]+)\.tar\.(?:bz2|xz)
+http://download.kde.org/unstable/kde-telepathy/([\d.]+)/src/telepathy-logger-qt-([\d.]+).tar.xz
