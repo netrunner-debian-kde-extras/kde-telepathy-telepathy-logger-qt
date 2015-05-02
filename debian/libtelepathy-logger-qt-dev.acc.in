@@ -6,7 +6,7 @@
 </version>
 
 <headers>
-    /usr/include/telepathy-logger-0.2/TelepathyLoggerQt/
+    /usr/include/TelepathyLoggerQt/
 </headers>
 
 <libs>
