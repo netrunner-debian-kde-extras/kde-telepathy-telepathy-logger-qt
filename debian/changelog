@@ -1,6 +1,6 @@
-telepathy-logger-qt (15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+telepathy-logger-qt (15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release. 
+  * Port to wily. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 15 May 2015 22:01:22 -0700
 
