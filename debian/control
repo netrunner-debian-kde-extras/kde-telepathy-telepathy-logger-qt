@@ -29,7 +29,7 @@ Homepage: https://projects.kde.org/projects/extragear/network/telepathy/telepath
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kde-telepathy/telepathy-logger-qt.git
 
-Package: libtelepathy-logger-qt-5
+Package: libtelepathy-logger-qt5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
@@ -44,7 +44,7 @@ Package: libtelepathy-logger-qt-dev
 Section: libdevel
 Architecture: any
 Depends: libqtgstreamer-dev,
-         libtelepathy-logger-qt-5 (= ${binary:Version}),
+         libtelepathy-logger-qt5 (= ${binary:Version}),
          libtelepathy-qt5-dev (>= 0.9.1~),
          ${misc:Depends}
 Description: Qt bindings for the telepathy-logger library - development files
@@ -56,11 +56,11 @@ Description: Qt bindings for the telepathy-logger library - development files
  This package provides the development headers for compiling applications
  that are using telepathy-logger-qt.
 
-Package: libtelepathy-logger-qt-5-dbg
+Package: libtelepathy-logger-qt-dbg
 Section: debug
 Priority: extra
 Architecture: any
 Multi-Arch: same
-Depends: libtelepathy-logger-qt-5 (= ${binary:Version}), ${misc:Depends}
+Depends: libtelepathy-logger-qt5 (= ${binary:Version}), ${misc:Depends}
 Description: Qt bindings for the telepathy-logger library - debug symbols
  This package provides debug symbols for the telepathy-logger-qt library.

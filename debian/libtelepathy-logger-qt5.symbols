@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 15.04.0 amd64
-libtelepathy-logger-qt.so.5 libtelepathy-logger-qt-5 #MINVER#
+libtelepathy-logger-qt.so.5 libtelepathy-logger-qt5 #MINVER#
  _ZN10QByteArrayD1Ev@Base 15.04.0
  _ZN10QByteArrayD2Ev@Base 15.04.0
  _ZN10QDBusErrorD1Ev@Base 15.04.0
