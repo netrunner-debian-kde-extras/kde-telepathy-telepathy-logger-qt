@@ -1,4 +1,4 @@
-telepathy-logger-qt (15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+telepathy-logger-qt (15.04.0-0ubuntu1~ubuntu15.04~ppa2) wily; urgency=medium
 
   * Port to wily. 
 
