@@ -1,3 +1,9 @@
+telepathy-logger-qt (15.04.1-0ubuntu1) vivid; urgency=medium
+
+  * Vivid backport. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 11:09:44 -0700
+
 telepathy-logger-qt (15.04.0-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
 
   * New upstream Qt 5 release
