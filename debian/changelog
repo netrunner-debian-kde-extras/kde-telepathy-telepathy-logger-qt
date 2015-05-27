@@ -2,6 +2,7 @@ telepathy-logger-qt (15.04.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Change to unreleased. 
   * Fix version. 
+  * Clean up files that do not belong. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 11:11:53 -0700
 
