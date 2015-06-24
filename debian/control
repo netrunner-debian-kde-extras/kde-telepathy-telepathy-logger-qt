@@ -1,7 +1,7 @@
 Source: telepathy-logger-qt
 Section: libs
 Priority: optional
-Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Maintainer: Kubuntu/Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Diane Trout <diane@ghic.org>,
            Michał Zając <quintasan@kubuntu.org>,
            Maximiliano Curia <maxy@debian.org>
