@@ -2,6 +2,7 @@ telepathy-logger-qt (15.04.0-1~) UNRELEASED; urgency=medium
 
   [ Diane Trout ]
   * Update watch file
+  * Update build dependencies to use libqt5gstreamer-dev
 
   [ Maximiliano Curia ]
   * Bump Standards-Version to 3.9.6, no changes needed.

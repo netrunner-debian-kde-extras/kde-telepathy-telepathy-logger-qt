@@ -14,7 +14,7 @@ Build-Depends: bison,
                libdbus-1-dev,
                libdbus-glib-1-dev,
                libglib2.0-dev,
-               libqtgstreamer-dev,
+               libqt5gstreamer-dev,
                libtelepathy-glib-dev (>= 0.18),
                libtelepathy-logger-dev (>= 0.8.0~),
                libtelepathy-qt5-dev (>= 0.9.1~),
@@ -43,7 +43,7 @@ Description: Qt bindings for the telepathy-logger library
 Package: libtelepathy-logger-qt-dev
 Section: libdevel
 Architecture: any
-Depends: libqtgstreamer-dev,
+Depends: libqt5gstreamer-dev,
          libtelepathy-logger-qt5 (= ${binary:Version}),
          libtelepathy-qt5-dev (>= 0.9.1~),
          ${misc:Depends}
