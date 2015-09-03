@@ -1,11 +1,13 @@
 # SymbolsHelper-Confirmed: 15.04.0 amd64
 libtelepathy-logger-qt.so.5 libtelepathy-logger-qt5 #MINVER#
+ (optional=templinst)_Z17qRegisterMetaTypeI15QDBusObjectPathEiPKcPT_N9QtPrivate21MetaTypeDefinedHelperIS3_Xaasr12QMetaTypeId2IS3_E7DefinedntsrS8_9IsBuiltInEE11DefinedTypeE@Base 15.04.0
  _ZN10QByteArrayD1Ev@Base 15.04.0
  _ZN10QByteArrayD2Ev@Base 15.04.0
  _ZN10QDBusErrorD1Ev@Base 15.04.0
  _ZN10QDBusErrorD2Ev@Base 15.04.0
- (optional=templinst)_ZN14QSharedPointerIN3Tpl5EventEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
+#MISSING: 15.04.0# (optional=templinst)_ZN14QSharedPointerIN3Tpl5EventEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
  (optional=templinst)_ZN14QSharedPointerIN3Tpl6EntityEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
+ (optional=templinst)_ZN14QSharedPointerIN3Tpl9CallEventEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
  (optional=templinst)_ZN14QSharedPointerIN3Tpl9LogWalkerEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
  (optional=templinst)_ZN14QSharedPointerIN3Tpl9TextEventEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
  (optional=templinst)_ZN15QtSharedPointer33ExternalRefCountWithCustomDeleterIN3Tpl5EventENS_13NormalDeleterEE7deleterEPNS_20ExternalRefCountDataE@Base 15.04.0
@@ -181,12 +183,12 @@ libtelepathy-logger-qt.so.5 libtelepathy-logger-qt5 #MINVER#
  (optional=templinst)_ZN5QListI14QSharedPointerIN3Tpl9TextEventEEED1Ev@Base 15.04.0
  (optional=templinst)_ZN5QListI14QSharedPointerIN3Tpl9TextEventEEED2Ev@Base 15.04.0
  (optional=templinst)_ZN5QListI5QDateE18detach_helper_growEii@Base 15.04.0
+ (optional=templinst)_ZN5QListI5QDateEC1ERKS1_@Base 15.04.0
+ (optional=templinst)_ZN5QListI5QDateEC2ERKS1_@Base 15.04.0
  (optional=templinst)_ZN5QListIN3Tpl9SearchHitEE18detach_helper_growEii@Base 15.04.0
  (optional=templinst)_ZN5QListIN3Tpl9SearchHitEE6appendERKS1_@Base 15.04.0
  (optional=templinst)_ZN5QListIN3Tpl9SearchHitEEC1ERKS2_@Base 15.04.0
  (optional=templinst)_ZN5QListIN3Tpl9SearchHitEEC2ERKS2_@Base 15.04.0
- _ZN6QDebugD1Ev@Base 15.04.0
- _ZN6QDebugD2Ev@Base 15.04.0
  _ZN7QStringD1Ev@Base 15.04.0
  _ZN7QStringD2Ev@Base 15.04.0
  (optional=templinst)_ZNK2Tp9SharedPtrINS_7AccountEEntEv@Base 15.04.0
