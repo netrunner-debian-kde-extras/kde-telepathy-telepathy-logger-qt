@@ -5,6 +5,7 @@ telepathy-logger-qt (15.04.0-1~) UNRELEASED; urgency=medium
   * Update build dependencies to use libqt5gstreamer-dev
   * Update symbols files
   * Remove unnecessary XS-Testsuite field from debian/control.
+  * Update Diane Trout's email address.
 
   [ Maximiliano Curia ]
   * Bump Standards-Version to 3.9.6, no changes needed.
