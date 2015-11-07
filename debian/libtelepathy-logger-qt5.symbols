@@ -5,7 +5,7 @@ libtelepathy-logger-qt.so.5 libtelepathy-logger-qt5 #MINVER#
  _ZN10QByteArrayD2Ev@Base 15.04.0
  _ZN10QDBusErrorD1Ev@Base 15.04.0
  _ZN10QDBusErrorD2Ev@Base 15.04.0
-#MISSING: 15.04.0# (optional=templinst)_ZN14QSharedPointerIN3Tpl5EventEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
+ (optional=templinst)_ZN14QSharedPointerIN3Tpl5EventEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
  (optional=templinst)_ZN14QSharedPointerIN3Tpl6EntityEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
  (optional=templinst)_ZN14QSharedPointerIN3Tpl9CallEventEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
  (optional=templinst)_ZN14QSharedPointerIN3Tpl9LogWalkerEE5derefEPN15QtSharedPointer20ExternalRefCountDataE@Base 15.04.0
@@ -282,5 +282,7 @@ libtelepathy-logger-qt.so.5 libtelepathy-logger-qt5 #MINVER#
  _ZTVN3Tpl9TextEventE@Base 0.6.0
  (optional=templinst)_ZZN11QMetaTypeIdI15QDBusObjectPathE14qt_metatype_idEvE11metatype_id@Base 15.04.0
  (optional=templinst)_ZZN18QMetaTypeIdQObjectIP23QDBusPendingCallWatcherLb1EE14qt_metatype_idEvE11metatype_id@Base 15.04.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIP23QDBusPendingCallWatcherLi8EE14qt_metatype_idEvE11metatype_id@Base 15.04.0
  (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN3Tpl16PendingOperationELb1EE14qt_metatype_idEvE11metatype_id@Base 15.04.0
+ (optional=templinst)_ZZN18QMetaTypeIdQObjectIPN3Tpl16PendingOperationELi8EE14qt_metatype_idEvE11metatype_id@Base 15.04.0
  (c++|arch=sparc)"construction vtable for QGlib::Object-in-Tpl::LogWalker@Base" 0.8.0
