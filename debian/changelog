@@ -1,4 +1,4 @@
-telepathy-logger-qt (15.04.0-1~) UNRELEASED; urgency=medium
+telepathy-logger-qt (15.04.0-1) unstable; urgency=medium
 
   [ Diane Trout ]
   * Update watch file
@@ -11,7 +11,7 @@ telepathy-logger-qt (15.04.0-1~) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed.
   * New upstream release (15.04.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Apr 2015 15:37:27 +0200
+ -- Diane Trout <diane@debian.org>  Fri, 06 Nov 2015 22:12:23 -0800
 
 telepathy-logger-qt (0.8.0-3) unstable; urgency=medium
 
